@@ -43,6 +43,8 @@ export function NoteList({ availableTags }: NoteListProps) {
           </Col>
           <Col>
             <Form.Group controlId="tags">
+
+              {/* --------------- */}
               <Form.Label>Tags</Form.Label>
               <ReactSelect
                 isMulti
